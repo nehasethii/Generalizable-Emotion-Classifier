@@ -1,0 +1,2 @@
+run_time,encoder_path,clf,accuracy,f1
+2025-11-16T19:02:15.023937,models/cnn_svm\cnn_encoder_ep10_bs32_lr0.0001_20251116_180409.h5,LogisticRegression,0.03909436084938827,0.042527172450783766

@@ -1,0 +1,295 @@
+{
+  "mnb_candidates": [
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer.pkl",
+      "vocab_size": 10000,
+      "mtime": 1762835885.616543
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run1.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837233.550182
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run10.pkl",
+      "vocab_size": 12005,
+      "mtime": 1762837741.7431877
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run2.pkl",
+      "vocab_size": 15000,
+      "mtime": 1762837324.1027026
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run3.pkl",
+      "vocab_size": 25000,
+      "mtime": 1762837371.0235028
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run4.pkl",
+      "vocab_size": 30000,
+      "mtime": 1762837416.601865
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run5.pkl",
+      "vocab_size": 10000,
+      "mtime": 1762837451.9668326
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run6.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837479.3506882
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run7.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837535.890992
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run8.pkl",
+      "vocab_size": 30000,
+      "mtime": 1762837568.5183315
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run9.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837601.3317087
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer.pkl",
+      "vocab_size": 10000,
+      "mtime": 1762835885.616543
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run1.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837233.550182
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run10.pkl",
+      "vocab_size": 12005,
+      "mtime": 1762837741.7431877
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run2.pkl",
+      "vocab_size": 15000,
+      "mtime": 1762837324.1027026
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run3.pkl",
+      "vocab_size": 25000,
+      "mtime": 1762837371.0235028
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run4.pkl",
+      "vocab_size": 30000,
+      "mtime": 1762837416.601865
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run5.pkl",
+      "vocab_size": 10000,
+      "mtime": 1762837451.9668326
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run6.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837479.3506882
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run7.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837535.890992
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run8.pkl",
+      "vocab_size": 30000,
+      "mtime": 1762837568.5183315
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run9.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837601.3317087
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder.pkl",
+      "vocab_size": null,
+      "mtime": 1762835401.0772483
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run1.pkl",
+      "vocab_size": null,
+      "mtime": 1762837233.550182
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run10.pkl",
+      "vocab_size": null,
+      "mtime": 1762837741.7591307
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run2.pkl",
+      "vocab_size": null,
+      "mtime": 1762837324.1027026
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run3.pkl",
+      "vocab_size": null,
+      "mtime": 1762837371.0235028
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run4.pkl",
+      "vocab_size": null,
+      "mtime": 1762837416.6089616
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run5.pkl",
+      "vocab_size": null,
+      "mtime": 1762837451.9827619
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run6.pkl",
+      "vocab_size": null,
+      "mtime": 1762837479.3506882
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run7.pkl",
+      "vocab_size": null,
+      "mtime": 1762837535.8914678
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run8.pkl",
+      "vocab_size": null,
+      "mtime": 1762837568.5183315
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder_run9.pkl",
+      "vocab_size": null,
+      "mtime": 1762837601.3336926
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model.pkl",
+      "vocab_size": null,
+      "mtime": 1762837019.6329243
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run1.pkl",
+      "vocab_size": null,
+      "mtime": 1762837233.180713
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run10.pkl",
+      "vocab_size": null,
+      "mtime": 1762837741.5459118
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run2.pkl",
+      "vocab_size": null,
+      "mtime": 1762837323.800814
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run3.pkl",
+      "vocab_size": null,
+      "mtime": 1762837370.5740798
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run4.pkl",
+      "vocab_size": null,
+      "mtime": 1762837416.1096077
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run5.pkl",
+      "vocab_size": null,
+      "mtime": 1762837451.7660892
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run6.pkl",
+      "vocab_size": null,
+      "mtime": 1762837478.9731188
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run7.pkl",
+      "vocab_size": null,
+      "mtime": 1762837535.5319386
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run8.pkl",
+      "vocab_size": null,
+      "mtime": 1762837568.0282485
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model_run9.pkl",
+      "vocab_size": null,
+      "mtime": 1762837600.9355059
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\multinomial_nb.pkl",
+      "vocab_size": null,
+      "mtime": 1762835885.1045706
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer.pkl",
+      "vocab_size": 10000,
+      "mtime": 1762835885.616543
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run1.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837233.550182
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run10.pkl",
+      "vocab_size": 12005,
+      "mtime": 1762837741.7431877
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run2.pkl",
+      "vocab_size": 15000,
+      "mtime": 1762837324.1027026
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run3.pkl",
+      "vocab_size": 25000,
+      "mtime": 1762837371.0235028
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run4.pkl",
+      "vocab_size": 30000,
+      "mtime": 1762837416.601865
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run5.pkl",
+      "vocab_size": 10000,
+      "mtime": 1762837451.9668326
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run6.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837479.3506882
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run7.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837535.890992
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run8.pkl",
+      "vocab_size": 30000,
+      "mtime": 1762837568.5183315
+    },
+    {
+      "path": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run9.pkl",
+      "vocab_size": 20000,
+      "mtime": 1762837601.3317087
+    }
+  ],
+  "mnb_selection": {
+    "model": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\mnb_model.pkl",
+    "expected_features": null,
+    "chosen_vectorizer": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\tfidf_vectorizer_run10.pkl",
+    "reason": "latest available vectorizer"
+  },
+  "mnb_label_encoder": "D:\\PROJECTS\\GENERALIZABLE EMOTION CLASSIFIER\\models\\mnb\\label_encoder.pkl",
+  "errors": {
+    "MNB": "X has 10000 features, but MultinomialNB is expecting 20000 features as input.",
+    "MNB_autofix": "X has 12005 features, but MultinomialNB is expecting 20000 features as input."
+  }
+}

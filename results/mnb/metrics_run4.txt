@@ -1,0 +1,55 @@
+=== Multinomial Naive Bayes Results ===
+
+🔧 Hyperparameters:
+  alpha       : 0.3
+  fit_prior   : True
+
+🧮 Vectorizer Settings:
+  max_features: 30000
+  ngram_range : (1, 3)
+  min_df      : 2
+  max_df      : 0.95
+
+--- Evaluation Metrics ---
+Accuracy : 0.2422
+Precision: 0.1777
+Recall   : 0.2422
+F1-Score : 0.1518
+
+--- Classification Report ---
+                precision    recall  f1-score   support
+
+    admiration       0.24      0.21      0.22       464
+     amusement       0.26      0.06      0.10       253
+         anger       0.22      0.04      0.06       226
+     annoyance       0.07      0.03      0.04       404
+      approval       0.12      0.06      0.08       536
+        caring       0.18      0.04      0.06       180
+     confusion       0.06      0.01      0.02       219
+     curiosity       0.16      0.04      0.06       282
+        desire       0.00      0.00      0.00       112
+disappointment       0.00      0.00      0.00       255
+   disapproval       0.06      0.01      0.02       341
+       disgust       0.15      0.01      0.02       156
+ embarrassment       0.00      0.00      0.00        75
+    excitement       0.24      0.03      0.05       170
+          fear       0.00      0.00      0.00        93
+     gratitude       0.46      0.41      0.43       280
+         grief       0.00      0.00      0.00        22
+           joy       0.18      0.07      0.11       229
+          love       0.29      0.12      0.17       215
+   nervousness       0.00      0.00      0.00        56
+       neutral       0.25      0.89      0.39      1511
+      optimism       0.17      0.07      0.10       253
+         pride       0.00      0.00      0.00        42
+   realization       0.08      0.01      0.03       269
+        relief       0.00      0.00      0.00        43
+       remorse       0.14      0.01      0.02        75
+       sadness       0.20      0.05      0.08       191
+      surprise       0.23      0.02      0.03       159
+
+      accuracy                           0.24      7111
+     macro avg       0.14      0.08      0.07      7111
+  weighted avg       0.18      0.24      0.15      7111
+
+Run Time: 2025-11-11 10:33:36.608961

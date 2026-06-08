@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Classifier - Main Interface</title>
+    <link rel="stylesheet" href="analyzer-styles.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Top Navigation Bar -->
+    <nav class="top-navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <span class="logo-icon">🎭</span>
+                <span class="logo-text">Generalizable Emotion Classifier</span>
+            </div>
+        </div>
+
+        <div class="nav-center">
+            <div class="model-dropdown">
+                <button class="dropdown-btn" onclick="toggleDropdown()">
+                    <span class="model-icon">🤖</span>
+                    <span id="selectedModel">DistilBERT</span>
+                    <svg class="dropdown-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <div class="dropdown-item active" onclick="selectModel('DistilBERT', 'distilbert')">
+                        <span class="item-icon">🧠</span>
+                        <div class="item-info">
+                            <span class="item-name">DistilBERT</span>
+                            <span class="item-desc">Transformer-based, High Accuracy</span>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" onclick="selectModel('LSTM', 'lstm')">
+                        <span class="item-icon">🔄</span>
+                        <div class="item-info">
+                            <span class="item-name">LSTM</span>
+                            <span class="item-desc">Recurrent Neural Network</span>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" onclick="selectModel('CNN + SVM', 'cnn_svm')">
+                        <span class="item-icon">⚡</span>
+                        <div class="item-info">
+                            <span class="item-name">CNN + SVM</span>
+                            <span class="item-desc">Hybrid Architecture</span>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" onclick="selectModel('Naïve Bayes', 'mnb')">
+                        <span class="item-icon">📊</span>
+                        <div class="item-info">
+                            <span class="item-name">Naïve Bayes</span>
+                            <span class="item-desc">Classical ML Algorithm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <a href="home.html" class="nav-btn">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M3 10L10 3L17 10M5 8V17H8V13H12V17H15V8" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Home
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="main-container">
+        <div class="content-wrapper">
+
+            <!-- Input Type Selection -->
+            <div class="input-type-selector">
+                <h2 class="section-title">Select Input Type</h2>
+                <div class="radio-group">
+                    <label class="radio-card active">
+                        <input type="radio" name="inputType" value="text" checked
+                            onchange="handleInputTypeChange('text')">
+                        <div class="radio-content">
+                            <span class="radio-icon">✏️</span>
+                            <span class="radio-label">Text Input</span>
+                            <span class="radio-desc">Enter text directly</span>
+                        </div>
+                        <div class="radio-check">✓</div>
+                    </label>
+
+                    <label class="radio-card">
+                        <input type="radio" name="inputType" value="csv" onchange="handleInputTypeChange('csv')">
+                        <div class="radio-content">
+                            <span class="radio-icon">📄</span>
+                            <span class="radio-label">CSV Upload</span>
+                            <span class="radio-desc">Upload CSV file</span>
+                        </div>
+                        <div class="radio-check">✓</div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Text Input Section -->
+            <div class="input-section" id="textInputSection">
+                <div class="input-card">
+                    <div class="input-header">
+                        <span class="input-icon">💬</span>
+                        <h3>Enter Your Text</h3>
+                    </div>
+                    <textarea id="textInput" placeholder="Type or paste your text here..." rows="8"></textarea>
+                    <div class="input-footer">
+                        <span class="char-count" id="charCount">0 characters</span>
+                        <button class="clear-btn" onclick="clearTextInput()">Clear</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CSV Upload Section -->
+            <div class="input-section hidden" id="csvInputSection">
+                <div class="input-card upload-card">
+                    <div class="upload-area" id="uploadArea" onclick="document.getElementById('csvFileInput').click()">
+                        <input type="file" id="csvFileInput" accept=".csv" hidden onchange="handleFileSelect(event)">
+                        <div class="upload-content">
+                            <div class="upload-icon">📁</div>
+                            <h3>Upload CSV File</h3>
+                            <p>Drag or click here</p>
+                        </div>
+                    </div>
+                    <div class="file-info hidden" id="fileInfo">
+                        <div class="file-details">
+                            <span class="file-icon">📄</span>
+                            <div class="file-text">
+                                <span class="file-name" id="fileName"></span>
+                                <span class="file-size" id="fileSize"></span>
+                            </div>
+                        </div>
+                        <button class="remove-file-btn" onclick="removeFile()">Remove</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Predict Button -->
+            <div class="action-section">
+                <button class="predict-btn" onclick="analyzeEmotion()">Analyze Emotions</button>
+            </div>
+
+            <!-- Loading State -->
+            <div class="loading-section hidden" id="loadingSection">
+                <div class="loading-spinner"></div>
+                <p>Analyzing...</p>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section hidden" id="resultsSection">
+                <div class="results-header">
+                    <h2>Analysis Results</h2>
+                </div>
+
+                <!-- Emotion Cards -->
+                <div class="emotion-grid" id="emotionGrid"></div>
+
+                <!-- Visualization -->
+                 <div class="results-header">
+                    <h2>Emotion Distribution</h2>
+                </div>
+                <div class="visualization-card">
+                    <div class="chart-container" id="chartContainer"></div>
+                </div>
+
+                <!-- Statistics -->
+                 <div class="results-header">
+                    <h2>Summary Statistics</h2>
+                </div>
+                <div class="stats-card">
+                    <div class="stats-grid" id="statsGrid"></div>
+                </div>
+
+                <!-- Interpretation UI (updated inline styles to match original frontend) -->
+                <div id="prediction-area">
+                    <div>
+                        <button id="check-reasoning-btn" aria-disabled="true" title="Show model explanation">
+                            🔎 Check Reasoning
+                        </button>
+                    </div>
+
+                    <div id="explanation-wrapper">
+                        <div class="results-header">
+                    <h2>Model Reasoning</h2>
+                </div>
+                        <pre id="explanation-text"></pre>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="analyzer-script.js"></script>
+</body>
+
+</html>

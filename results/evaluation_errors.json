@@ -1,0 +1,4 @@
+{
+  "MNB": "X has 10000 features, but MultinomialNB is expecting 20000 features as input.",
+  "MNB_autofix": "X has 12005 features, but MultinomialNB is expecting 20000 features as input."
+}

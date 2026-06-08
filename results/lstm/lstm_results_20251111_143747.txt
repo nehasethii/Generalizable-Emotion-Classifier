@@ -1,0 +1,52 @@
+=== LSTM Model Results ===
+
+--- Hyperparameters ---
+Embedding dim  : 64
+LSTM units     : 64
+Dropout rate   : 0.3
+Max seq length : 50
+Max vocab size : 15000
+
+--- Evaluation ---
+Accuracy : 0.2536
+Precision: 0.0862
+Recall   : 0.2536
+F1-Score : 0.1256
+
+--- Classification Report ---
+                precision    recall  f1-score   support
+
+    admiration       0.16      0.52      0.25       465
+     amusement       0.00      0.00      0.00       252
+         anger       0.00      0.00      0.00       226
+     annoyance       0.00      0.00      0.00       403
+      approval       0.00      0.00      0.00       535
+        caring       0.00      0.00      0.00       179
+     confusion       0.00      0.00      0.00       220
+     curiosity       0.00      0.00      0.00       282
+        desire       0.00      0.00      0.00       113
+disappointment       0.00      0.00      0.00       255
+   disapproval       0.00      0.00      0.00       340
+       disgust       0.00      0.00      0.00       157
+ embarrassment       0.00      0.00      0.00        76
+    excitement       0.00      0.00      0.00       170
+          fear       0.00      0.00      0.00        92
+     gratitude       0.52      0.72      0.60       280
+         grief       0.00      0.00      0.00        21
+           joy       0.00      0.00      0.00       229
+          love       0.00      0.00      0.00       215
+   nervousness       0.00      0.00      0.00        57
+       neutral       0.26      0.90      0.40      1510
+      optimism       0.00      0.00      0.00       254
+         pride       0.00      0.00      0.00        42
+   realization       0.00      0.00      0.00       269
+        relief       0.00      0.00      0.00        44
+       remorse       0.00      0.00      0.00        74
+       sadness       0.00      0.00      0.00       192
+      surprise       0.00      0.00      0.00       159
+
+      accuracy                           0.25      7111
+     macro avg       0.03      0.08      0.04      7111
+  weighted avg       0.09      0.25      0.13      7111
+
+Run Time: 2025-11-11 14:37:47.679187

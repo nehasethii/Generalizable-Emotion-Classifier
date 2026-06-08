@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generalizable Emotion Classifier | AI-Powered Emotion Detection</title>
+    <link rel="stylesheet" href="home-styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎭</span>
+                <span class="logo-text">Generalizable Emotion Classifier</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="auth.html" class="nav-cta">Get Started</a>
+            </nav>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">✨</span>
+                <span class="badge-text">AI-Powered Fine-Grained Emotion Detection</span>
+            </div>
+            <h1 class="hero-title">
+                Decode Human Emotions
+                <span class="gradient-text">With Advanced AI</span>
+            </h1>
+            <p class="hero-subtitle">
+                Experience next-generation emotion classification powered by deep learning.
+                Detect 27+ fine-grained emotions with unprecedented accuracy and transparency.
+            </p>
+            <div class="hero-buttons">
+                <a href="auth.html" class="btn-primary">
+                    <span>Get Started</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#features" class="btn-secondary">
+                    <span>Learn More</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">27+</span>
+                    <span class="stat-label">Emotions Detected</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">57000</span>
+                    <span class="stat-label">Training Samples</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="emotion-preview">
+                    <span class="emoji">😊</span>
+                    <div class="emotion-info">
+                        <span class="emotion-name">Joy</span>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: 92%"></div>
+                        </div>
+                        <span class="confidence-text">92%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="emotion-preview">
+                    <span class="emoji">😢</span>
+                    <div class="emotion-info">
+                        <span class="emotion-name">Sadness</span>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: 78%"></div>
+                        </div>
+                        <span class="confidence-text">78%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-card card-3">
+                <div class="emotion-preview">
+                    <span class="emoji">😍</span>
+                    <div class="emotion-info">
+                        <span class="emotion-name">Love</span>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: 85%"></div>
+                        </div>
+                        <span class="confidence-text">85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-circle pulse"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-header">
+            <span class="section-badge">🚀 Capabilities</span>
+            <h2>Powerful Features for Emotion Analysis</h2>
+            <p>Advanced AI models combined with interpretability tools for transparent predictions</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3>Deep Learning Models</h3>
+                <p>Leverages DistilBERT, LSTM, CNN+SVM, and Naïve Bayes for robust emotion detection</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>27 Fine-Grained Emotions</h3>
+                <p>Goes beyond basic sentiment analysis to detect nuanced emotions like admiration, grief, and curiosity</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <h3>SHAP & LIME Interpretability</h3>
+                <p>Transparent predictions with visual explanations of which words drive emotion classification</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Real-Time Analysis</h3>
+                <p>Instant emotion detection with confidence scores for immediate insights</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Multi-Label Classification</h3>
+                <p>Detects multiple emotions simultaneously in complex text expressions</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+                <h3>Cross-Domain Generalization</h3>
+                <p>Trained on diverse datasets for accurate emotion detection across different platforms</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <span class="section-badge">📖 About Project</span>
+                <h2>Next-Generation Emotion Intelligence</h2>
+                <p>The Generalizable Emotion Classifier is a cutting-edge research project that leverages deep learning to understand human emotions from text with unprecedented granularity.</p>
+                <p>Built on the GoEmotions dataset with 58,000+ annotated Reddit comments, our system combines traditional machine learning with state-of-the-art transformer models to achieve superior accuracy in detecting 27 distinct emotions.</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-icon">✅</span>
+                        <span>Research-backed methodology</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">✅</span>
+                        <span>Explainable AI predictions</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-icon">✅</span>
+                        <span>Scalable architecture</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="model-showcase">
+                    <div class="model-item">DistilBERT</div>
+                    <div class="model-item">LSTM</div>
+                    <div class="model-item">CNN + SVM</div>
+                    <div class="model-item">Naïve Bayes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="section-header">
+            <span class="section-badge">👥 Our Team</span>
+            <h2>Meet the Innovators</h2>
+            <p>B.Tech students from PIET, Panipat pushing the boundaries of emotion AI</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-avatar">
+                    <span class="avatar-emoji">👩‍💻</span>
+                </div>
+                <h3>Neha</h3>
+                <p class="team-role">ML Engineer & Researcher</p>
+                <p class="team-id">2822633</p>
+                <p class="team-contribution">Model Development & Training</p>
+            </div>
+            <div class="team-card">
+                <div class="team-avatar">
+                    <span class="avatar-emoji">👨‍💻</span>
+                </div>
+                <h3>Kapil Saini</h3>
+                <p class="team-role">Backend Developer</p>
+                <p class="team-id">2822656</p>
+                <p class="team-contribution">API & Model Integration</p>
+            </div>
+            <div class="team-card">
+                <div class="team-avatar">
+                    <span class="avatar-emoji">👨‍💻</span>
+                </div>
+                <h3>Ronak</h3>
+                <p class="team-role">Frontend Developer</p>
+                <p class="team-id">2822646</p>
+                <p class="team-contribution">UI/UX & Visualization</p>
+            </div>
+        </div>
+        <div class="supervisor-info">
+            <p>Under the supervision of <strong>Dr. Sorabh Gupta</strong></p>
+            <p>Assistant Professor, Department of Information Technology</p>
+            <p>PANIPAT INSTITUTE OF ENGINEERING & TECHNOLOGY</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">🎭</span>
+                <span class="logo-text">Generalizable Emotion Classifier</span>
+            </div>
+            <p class="footer-text">Advanced emotion detection powered by deep learning</p>
+            <p class="footer-copyright">© 2025 PIET Panipat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="home-script.js"></script>
+</body>
+</html>
